@@ -1,0 +1,68 @@
+/* common design */
+.commonDesign {
+    max-width: 1440px;
+    margin-right: 192px;
+    margin-left: 192px;
+    margin-top: 4rem;
+    background-image: url('./resources/Background_decor@2x.png');
+    background-repeat: repeat;
+}
+
+.upperPart {
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+}
+
+.lowerPart {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    bottom: 0.23rem;
+}
+
+.detailsOfMember {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 2rem;
+}
+
+.member1 {
+    background-color: rgba(193, 182, 248, 1);
+}
+.member2 {
+    background-color: rgba(237, 172, 210, 1);
+}
+
+.imageDiv {
+    position: relative;
+    width: fit-content;
+}
+
+.name,
+.post,
+.detailsOfMember {
+    width: fit-content;
+}
+
+.name{
+    color: white;
+    font-size: calc(18.6rem/16);
+}
+.post{
+    color: #d2d2cb;
+    font-size: calc(13.5rem/16);
+}
+.title{
+    color: #6B7CC3;
+    font-size: calc(14.8rem/16);
+}
+.greetings{
+    color: #191919;
+    font-size: calc(36.4rem/16);
+}
+.description{
+    color: #7B808B;
+    font-size: calc(14.5rem/16);
+}
