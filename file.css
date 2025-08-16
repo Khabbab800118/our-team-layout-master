@@ -15,7 +15,7 @@
     grid-template-columns: 2fr repeat(2, 1fr);
 }
 
-.details{
+.details {
     padding: 3.5rem;
 }
 
@@ -37,20 +37,25 @@
 .member1 {
     background-color: rgba(193, 182, 248, 1);
 }
+
 .member2 {
     background-color: rgba(237, 172, 210, 1);
     border-top-right-radius: 2rem;
 }
-.member3{
+
+.member3 {
     background-color: rgba(156, 196, 248, 1);
 }
-.member4{
+
+.member4 {
     background-color: rgba(248, 216, 177, 1);
 }
-.member5{
+
+.member5 {
     background-color: rgba(134, 231, 212, 1);
     border-bottom-right-radius: 2rem;
 }
+
 .imageDiv {
     position: relative;
     width: fit-content;
@@ -62,31 +67,64 @@
     width: fit-content;
 }
 
-.name{
+.name {
     color: white;
     font-size: calc(18.6rem/16);
 }
-.post{
+
+.post {
     color: #d2d2cb;
     font-size: calc(13.5rem/16);
 }
-.title{
+
+.title {
     color: #6B7CC3;
     font-size: calc(14.8rem/16);
 }
-.greetings{
+
+.greetings {
     color: #191919;
     font-size: calc(36.4rem/16);
 }
-.description{
+
+.description {
     color: #7B808B;
     font-size: calc(14.5rem/16);
 }
 
-.seeAllMembersDiv{
+.seeAllMembersDiv {
     color: #6C717D;
     font-size: calc(14.8rem/16);
     padding: 0rem 0rem 2rem 3.5rem;
     display: flex;
     align-items: last baseline;
+}
+
+/* for mobile */
+@media screen and (max-width:576px) {
+
+    .commonDesign {
+        margin: 0rem;
+    }
+
+    .imageDiv {
+        position: relative;
+    }
+
+    .commonDesign,
+    .upperPart,
+    .lowerPart {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .member1,
+    .member2,
+    .member3,
+    .member4,
+    .member5 {
+        border-radius: 0rem;
+        padding: 0rem;
+        width: 398px;
+    }
 }
