@@ -109,6 +109,7 @@
 
     .imageDiv {
         position: relative;
+        margin: 0rem;
     }
 
     .commonDesign,
@@ -131,5 +132,8 @@
         width: 396px;
         border-bottom-left-radius: 2rem;
         border-bottom-right-radius: 2rem;
+    }
+    .seeAllMembersDiv{
+        display: none;
     }
 }
