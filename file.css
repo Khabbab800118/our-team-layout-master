@@ -121,10 +121,15 @@
     .member1,
     .member2,
     .member3,
-    .member4,
-    .member5 {
+    .member4 {
         border-radius: 0rem;
         padding: 0rem;
-        width: 398px;
+        width: 396px;
+    }
+    .member5{
+        padding: 0rem;
+        width: 396px;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
     }
 }
